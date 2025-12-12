@@ -27,7 +27,7 @@ import json
 import re
 
 def replace_lakehouse_name_in_notebook(notebook_path, old_name, new_name):
-    # Regex matches any line assigning SOURCE_LAKEHOUSE_NAME to old_name,
+    # Regex matches  any line assigning SOURCE_LAKEHOUSE_NAME to old_name,
     # allowing any whitespace around '=', and both single or double quotes.
     pattern = re.compile(r'(SOURCE_LAKEHOUSE_NAME\s*=\s*["\'])' + re.escape(old_name) + r'(["\'])')
     changed = False
