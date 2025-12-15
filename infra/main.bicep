@@ -47,7 +47,7 @@ var solutionSuffix = toLower(trim(replace(
   ''
 )))
 
-// var userAssignedIdentityResourceName = 'id-${solutionSuffix}'
+// var userAss ignedIdentityResourceName = 'id-${solutionSuffix}'
 // module userAssignedIdentity  'br/public:avm/res/managed-identity/user-assigned-identity:0.4.1' = {
 //   name: take('avm.res.managed-identity.user-assigned-identity.${userAssignedIdentityResourceName}', 64)
 //   params: {
